@@ -8,7 +8,12 @@
     "types": [
       "jasmine",
       "node"
-    ]
+    ],
+    "paths": {
+      "@components/*": [
+          "./app/components"
+      ]
+    }  
   },
   "files": [
     "test.ts"
